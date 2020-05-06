@@ -1,0 +1,51 @@
+
+*{ box-sizing: bording-box;
+}
+;
+body{
+font-size: 0px;
+}
+span {color: grey;opacity: 0.7;
+}
+.main-block {
+    margin: 50px;
+    text-align: center;
+    height: 100px; 
+    font-size: 15px; 
+}
+p
+{
+    font-size: 30px;  
+}
+hr {
+   width: 5%; height: 1px;
+background-color: orange;
+border: 0px;
+}
+.block {
+    display: inline-block;
+    width: 465px;
+    text-align: center;
+    font-size: 15px;
+    margin: 90px 15px 10px 10px;
+}
+.figure
+{
+    display: block;
+    margin: 1px 1px 1px 1px;
+    text-align: center;
+}
+.blk{
+    width: 465px;
+    text-align: center;
+    font-size: 15px;
+    display: inline-block;
+    margin: 90x 15px 10px 10px;
+}
+.same-block{
+    width: 465px;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    margin: 90px 15px 10px 10px;
+}
