@@ -1,0 +1,93 @@
+*{ box-sizing: border-box}
+body{
+width:100%;
+font-size:0px;
+}
+span {
+color: grey; opacity: 0.7;
+}
+h3 {
+font-weight: 10px;
+}
+.main {
+margin: 50px 0px 50px 0px;
+text-align: center; 
+font-size: 15px; 
+font-family: Arial, Helvetica, sans-serif;
+}
+hr {
+width: 5%; height: 1px;
+background-color: orange;
+border: 0px;
+margin-bottom:20px;
+}
+.block
+{
+display: inline-block;
+width: 100%;
+margin: 25px 0px 0px 10px;
+}
+div
+{
+text-align: center;
+}
+.circle-bulb {
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid orange;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 50px;
+    margin: 0px 305px 0px 170px;
+    background-image:url('img/bulb.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.circle-key {
+    display: inline-block;
+    vertical-align: top;
+    border:2px solid orange;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    background-color: white;
+    margin:0px 0px 0px 10px;
+    background-image:url('img/keyboard.jpg');
+    background-repeat:no-repeat;
+    background-origin:content-box;
+    background-position:center;
+}  
+.circle-light{
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid orange;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0px 160px 0px 305px;
+    background-image:url('img/lighting.jpg');
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position:center;
+}
+.text { 
+display: inline-block;
+text-align:center;
+width: 350px;
+height: 21px;
+font-size:20px;
+top:200px;
+margin: 29px 0px 0px 40px;
+}    
+p
+{
+display: inline-block;
+text-align: center;
+width: 350px;
+color: grey;opacity: 0.7;
+font-size: 16px;
+margin: 25px 0px 0px 30px;
+}
